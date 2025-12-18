@@ -20,7 +20,7 @@ python3 scripts/download/download.py \
 
 ### Link do notatnika na kaggle
 
-
+[notebook](https://www.kaggle.com/code/dominik2133/gsn-projekt)
 
 ### Plik prepare.py
 
