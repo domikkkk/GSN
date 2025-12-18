@@ -2,7 +2,7 @@
 
 ### Pobranie danych
 
-```sh
+```bash
 git clone https://github.com/MTG/mtg-jamendo-dataset
 
 mkdir dataset
@@ -38,7 +38,7 @@ make_zips()
 
 - make_new_tsv - tworzy nowy plik tsv na podstawie kopii mtg-jamendo-dataset/data/autotagging_moodtheme.tsv do wykorzystania do własnego datasetu. W nim podmienione są dane w kolumnie PATH, aby nie były to ścieżki do plików .mp3 tylko .npy (spektrogramów) oraz zmieniony znak odstępu między tagami, aby móc potem skorzystać w sposób prostszy z pandasa.
 
-```sh
+```bash
 cp mtg-jamendo-dataset/data/autotagging_moodtheme.tsv mels/
 ```
 
