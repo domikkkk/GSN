@@ -90,10 +90,9 @@ def add_train_and_test(path, destination__path):
 
 
 if __name__ == "__main__":
-    # make_mels("mtg-jamendo-dataset/data/autotagging_moodtheme.tsv")
-    # make_zips()
-    # make_new_tsv("mels/autotagging_moodtheme.tsv")
-    # add_new_tag("mels/autotagging_moodtheme_mels.tsv")
+    make_mels("mtg-jamendo-dataset/data/autotagging_moodtheme.tsv")
+    make_zips()
+    make_new_tsv("mels/autotagging_moodtheme.tsv")
+    add_new_tag("mels/autotagging_moodtheme_mels.tsv")
     add_train_and_test("mtg-jamendo-dataset/data/splits/split-0/autotagging_moodtheme-test.tsv", "mels/autotagging_moodtheme_mels.tsv")
-    # add_train_and_test("mtg-jamendo-dataset/data/splits/split-0/autotagging_moodtheme-train.tsv", "mels/autotagging_moodtheme_mels.tsv")
-
+    add_train_and_test("mtg-jamendo-dataset/data/splits/split-0/autotagging_moodtheme-train.tsv", "mels/autotagging_moodtheme_mels.tsv")
